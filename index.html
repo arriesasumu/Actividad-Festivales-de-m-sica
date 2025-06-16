@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festivales de Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Festivales de Música</h1>
+        <p><strong>Descubre los mejores festivales de música del mundo</strong></p>
+        <nav>
+            <ul>
+                <li><a href="#general">Información General</a></li>
+                <li><a href="#comparativa">Comparativa</a></li>
+                <li><a href="#consejos">Consejos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="general">
+            <section>
+                <h2>¿Qué es un festival de música?</h2>
+                <p>
+                    Un <strong>festival de música</strong> es un evento que reúne a artistas y público para disfrutar de actuaciones en vivo. 
+                    <em>Estos eventos suelen durar varios días y ofrecen una experiencia única.</em>
+                </p>
+                <img src="descarga.jpg" alt="Festival de música al aire libre" title="Festival de música al aire libre" width="400">
+            </section>
+            <section>
+                <h3>Festivales populares</h3>
+                <ol>
+                    <li>Coachella</li>
+                    <li>Glastonbury</li>
+                    <li>Tomorrowland</li>
+                </ol>
+                <ul>
+                    <li>Ambiente único</li>
+                    <li>Variedad de géneros musicales</li>
+                    <li>Experiencia cultural</li>
+                </ul>
+            </section>
+        </article>
+        <article id="comparativa">
+            <section>
+                <h2>Tabla comparativa de festivales</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Festival</th>
+                            <th>País</th>
+                            <th>Fecha</th>
+                            <th>Género principal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Coachella</td>
+                            <td>Estados Unidos</td>
+                            <td><time datetime="2024-04">Abril</time></td>
+                            <td>Pop/Rock/Electrónica</td>
+                        </tr>
+                        <tr>
+                            <td>Glastonbury</td>
+                            <td>Reino Unido</td>
+                            <td><time datetime="2024-06">Junio</time></td>
+                            <td>Rock/Alternativo</td>
+                        </tr>
+                        <tr>
+                            <td>Tomorrowland</td>
+                            <td>Bélgica</td>
+                            <td><time datetime="2024-07">Julio</time></td>
+                            <td>Electrónica</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+        <article id="consejos">
+            <section>
+                <h2>Consejos para asistir a festivales</h2>
+                <blockquote>
+                    "La mejor manera de disfrutar un festival es ir preparado y con la mente abierta."
+                </blockquote>
+                <ul>
+                    <li>Lleva protector solar</li>
+                    <li>Hidrátate constantemente</li>
+                    <li>Planifica tu transporte</li>
+                </ul>
+                <ol>
+                    <li>Compra tus entradas con anticipación</li>
+                    <li>Consulta el cartel de artistas</li>
+                    <li>Prepara un kit básico (agua, gorra, etc.)</li>
+                </ol>
+            </section>
+            <aside>
+                <h4>¿Sabías que...?</h4>
+                <p>El festival más grande del mundo es Donauinselfest en Viena, Austria.</p>
+            </aside>
+        </article>
+        <article id="contacto">
+            <section>
+                <h2>Formulario de contacto</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" min="10" max="100"><br><br>
+                    
+                    <label for="genero">Género musical favorito:</label>
+                    <select id="genero" name="genero">
+                        <option value="rock">Rock</option>
+                        <option value="pop">Pop</option>
+                        <option value="electronica">Electrónica</option>
+                        <option value="otro">Otro</option>
+                    </select><br><br>
+                    
+                    <label>
+                        <input type="checkbox" name="newsletter" value="si">
+                        Suscribirme al newsletter
+                    </label><br><br>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section>
+                <h2>Ubicación de un festival</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9630579153169!3d-37.8162797797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f1f1f1%3A0x5045675218ce6e0!2sFederation%20Square!5e0!3m2!1ses!2sau!4v1614031234567!5m2!1ses!2sau" 
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+            <section>
+                <h2>Video destacado</h2>
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allowfullscreen></iframe>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <address>
+            Contacto: info@festivalesmusica.com<br>
+            Calle de la Música, 123, Madrid, España
+        </address>
+        <p>&copy; 2024 Festivales de Música</p>
+    </footer>
+</body>
+</html>
